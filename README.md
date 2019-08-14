@@ -5,7 +5,7 @@ You can find the corresponding guide [in the Chatkit documentation](https://push
 
 Check out the [start](https://github.com/pusher/chatkit-getting-started-android/tree/start) branch so you can follow the getting start guide and add the code yourself!
 
-![giphy](http://www.giphy.com/gifs/IzRe4gklKpTvCD8a4Z)
+![giphy](https://media.giphy.com/media/IzRe4gklKpTvCD8a4Z/giphy.gif)
 
 ## Requirements
 
