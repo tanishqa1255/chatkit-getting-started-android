@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+    <TextView
+            android:id="@+id/lblSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"
+            android:text="sender"
+    />
+
+    <TextView
+            android:id="@+id/lblTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@id/lblSender"
+            android:layout_alignBottom="@id/lblSender"
+            android:textSize="14sp"
+            android:textColor="@color/dark"
+            android:text="13:04:02"
+    />
+
+    <TextView
+            android:id="@+id/lblMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/lblSender"
+            android:textSize="18sp"
+            android:textColor="@color/dark"
+            android:text="message"
+    />
+
+</RelativeLayout>
