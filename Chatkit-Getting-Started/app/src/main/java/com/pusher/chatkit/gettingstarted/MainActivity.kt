@@ -81,8 +81,11 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
 
-                    is Error -> {
-                        Toast.makeText(this, result.reason, Toast.LENGTH_SHORT).show() }
+                    is Result.Failure -> {
+                        runOnUiThread {
+                            Toast.makeText(this, result.error.reason, Toast.LENGTH_SHORT).show()
+                        }
+                    }
                 }
             }
         )
